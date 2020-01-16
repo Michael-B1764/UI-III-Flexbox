@@ -97,6 +97,9 @@ nav div a {
 	display:flex;
 	align-items: center;
 }
+nav a:hover {
+	color:gray;
+}
 
 
 

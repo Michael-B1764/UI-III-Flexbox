@@ -108,6 +108,9 @@ nav {
 nav a {
     color: gray;
 }
+nav a:hover {
+    color:black;
+}
 .nav-logo {
     width:30%;
     text-align:center;
