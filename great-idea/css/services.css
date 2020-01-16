@@ -79,6 +79,10 @@ h1 {
     font-weight: bold;
     font-size: 20px;
 }
+h3 {
+    font-weight: bold;
+    font-size: 15px;
+}
 a {
     text-decoration:none;
 }
@@ -99,9 +103,14 @@ nav {
 .nav-links {
     display:flex;
     justify-content: space-evenly;
+    width:80%
 }
 nav a {
     color: gray;
+}
+.nav-logo {
+    width:30%;
+    text-align:center;
 }
 
 
@@ -120,21 +129,70 @@ nav a {
 
 
 /* Main Content Box Styles */
-.main-content {
+
+
+.main-content-container-all {
     display:flex;
     flex-wrap:wrap;
+    justify-content:space-between;
+    margin: 0 3.5%;
 }
 
-.main-content div {
-    width: 40%;
+.main-content-container-all div {
+    width: 48%;
+    height:40%;
+    margin:1.75% 0;
+    border:1px black solid;
+    
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(233, 233, 233);
+}
+.main-content-container-all div h3{
+    margin: 2.5% 0 1% 2.5%;;
+}
+.main-content-container-all div p{
+    margin: 2.5% 0 1% 2.3%;;
+}
+.main-content-container-all div div{
+    text-align:center;
+    width:35%;
+    margin: 2.5% 0 3% 2.5%;
+    padding:2% 5%;
+    border-radius:6px;
+    background-color:rgb(253, 253, 253);
+
+}
+.main-content-container-all div div:hover {
+    background-color:rgb(190, 190, 190)
 }
 
 
+/* Footer Styles*/
 
+.footer-sides {
+    display:flex;
+    justify-content: space-between;
+    /* width:90%; */
+    margin-left:3.5%;
+    margin-right:3.5%;
+}
+.footer-sides div {
+    width:55%;
+}
+.footer-div2 {
+    display: flex;
+    justify-content:flex-end;
+}
 
+/* footer */
 
+.copyright {
+    margin-top:8%;
+    text-align:center;
+}
 
 /* * {
     outline:1px black solid;
     outline-offset:-1;
-} */
+}  */
