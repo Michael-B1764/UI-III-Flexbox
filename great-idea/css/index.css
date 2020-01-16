@@ -6,7 +6,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -79,7 +79,6 @@ nav {
 	display:flex;
 	justify-content:space-evenly;
 }
-
 nav .navDiv1 {
 	width: 67%;	
 	display:flex;
@@ -111,21 +110,13 @@ heading .headingSections {
 	margin:0 10%;
 	flex-basis:30%;
 }
-.headingSections1 {
-
-}
-heading .headingText {
-	
-}
 heading h1 {
 	font-size: 72px;
 	max-width:100%
 }
-
 heading .getStartedButton {
 	margin-top: 2%;
 }
-
 heading a {
 	text-decoration: none;
 	color: black;
@@ -148,6 +139,7 @@ heading img{
 	margin: 5% auto 6%;
 }
 
+
 /* top main section */
 .topSection {
 	display:flex;
@@ -158,15 +150,21 @@ heading img{
 }
 /*center image*/
 
+
 .middleImg {
 	width:90%;
 	margin: 05% auto 5%;
 	text-align:center;
 }
 
+
 .middleImg img {
 	width:100%;
 }
+
+
+
+
 
 /*bottom section div*/
 
@@ -177,12 +175,14 @@ heading img{
 .bottomSection div{
 	width:25%;
 }
-
 .bottomLine {
 	width: 90%;
 	border: 1px solid black;
 	margin: 5% auto 6%;
 }
+
+
+
 
 /* footer */
 
