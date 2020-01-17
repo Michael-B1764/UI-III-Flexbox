@@ -181,11 +181,17 @@ nav a:hover {
     margin-right:3.5%;
 }
 .footer-sides div {
-    width:55%;
+    width:50%;
 }
 .footer-div2 {
     display: flex;
     justify-content:flex-end;
+}
+ul {
+    margin-top: 10px;;
+}
+li {
+    list-style-type:square;
 }
 
 /* footer */
